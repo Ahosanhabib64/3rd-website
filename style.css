@@ -466,3 +466,9 @@ width: 95%;
     border-radius: 10px;
     cursor: pointer;
 }
+footer p{
+    margin: 20px 0;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
