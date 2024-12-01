@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1C2833;
+    padding: 10px 0;
+}
+.logo{
+    color: #fff;
+    margin-left: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    margin-right: 50px;
+}
+.navbar li{
+    list-style: none;
+    
+}
+.navbar li a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    transition: .5s;
+}
+.navbar li a:hover, .active{
+    background-color: grey;
+}
+
+/* header part start here  */
+
+header{
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+/* 1st sewction start here  */
+
+
+
+#services-area{
+    background-color: #16213E;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.services-area-title{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: .2em;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.services-area-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1000px;
+    margin: auto;
+    justify-content: space-between;
+    grid-gap: 20px;
+    color: #fff;
+
+}
+.services-area-single-card{
+    border: 2px solid green;
+    text-align: center;
+    box-shadow: 5px 5px 10px #fff;
+    background-color: #fff;
+    color: #000;
+}
+.services-area-single-card i{
+    font-size: 40px;
+    margin-top: 15px;
+}
+.services-area-single-card h2{
+    font-size: 40px;
+    margin: 10px 0 5px 0;
+}
+.services-area-single-card p{
+    margin-bottom: 10px;
+}
+/* 1st section end  */
+
+
+
+/* 2nd section start here  */
+
+#smart-area{
+    background-color: #154360;
+    padding-bottom: 100px;
+}
+.Smart-area-header{
+    display: flex;
+    margin: 15px 20px;
+    width: 1000px;
+    margin: auto;
+    justify-content: space-between;
+}
+.smart-area-img{
+    width: 500px;
+}
+.smart-area-container{
+    color: #fff;
+    width: 450px;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    margin-top: 200px;
+}
+.smart-area-container h3{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.smart-area-container h5{
+    font-size: 15px;
+}
+.smart-area-container a button{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.smart-area-container a button:hover{
+    background: #fff;
+}
+
+
+/* 2nd section end here  */
+
+
+
+/* 3rd section start here  */
+#vanilla-area{
+    background-color: #001B2D;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+.vanilla-first-part{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin: 100px 20px;
+    width: 500px;
+    /* width: 50%; */
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.vanilla-first-part h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.vanilla-first-part p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.vanilla-first-part ul li{
+    list-style-position: inside;
+}
+.vanilla-first-part ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+.vanilla-first-part a button{
+    font-size: 20px;
+    padding: 15px 50px;
+    display: inline-block;
+    margin: 40px 0;
+    background-color: yellow;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.vallina-2nd-part{
+    margin: 100px 0;
+    padding-right: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 600px;
+}
+.vanilla-single-card{
+    color: black;
+    background-color:rgb(241, 237, 237);
+    text-align: center;
+    padding: 40px 20px;
+    border: 4px solid green;
+    border-radius: 5px;
+    align-items: center;
+}
+.vanilla-single-card h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.vanilla-single-card p{
+    font-size: 20px;
+}
+/* 3rd section end  */
+
+
+/* 4th section start here  */
+#advice-parent{
+    background-color: #154360;
+    padding: 100px 0;
+}
+.advice-container{
+    display: flex;
+    gap: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.single-advice{
+    font-size: 15px;
+    text-align: justify;
+    color: #fff;
+    width: 100%;
+}
+.single-advice h1{
+font-size: 30px;
+margin-top: 20px;
+width: 95%;
+
+}
+.single-advice p{
+    font-size: 15px;
+    line-height: 1.5;
+    padding-top: 20px;
+    width: 95%;
+}
+.single-advice h3{
+    font-size: 30px;
+    border-bottom: 2px solid red;
+    padding-bottom: 20px;
+}
+.single-advice-icon {
+    text-align: center;
+    margin-top: 20px;
+}
+.single-advice-icon a{
+    color:#000;
+    background-color: #fff;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 40px;
+    display: inline-block;
+    margin: 0 5px;
+    
+    
+}
+.single-advice button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: .5s;
+}
+.single-advice button:hover{
+    background-color: wheat;
+}
+
+/* 4th section end  */
+
+
+/* 5th section start here  */
+
+#contact-area{
+    background-image: url(banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0;
+}
+.contact-form{
+    background-color:#2E357A;
+    padding: 50px 40px;
+    padding-bottom: 100px;
+    text-align: center;
+    border: 4px solid #0b7afa;
+    width: 550px;
+    height: 400px;
+    margin: 0px auto;
+    box-shadow: 5px 5px 10px rgb(30, 77, 231);
+}
+.contact-form h3{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.contact-form p{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.form-input{
+    display: block;
+    width: 100%;
+    margin: 30px 0;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 5px solid green;
+    color: #fff;
+
+}
+.menu-btn{
+    font-size: 20px;
+    padding: 5px 40px;
+    background: none;
+    color: #fff;
+    transition: .5s;
+    cursor: pointer;
+}
+.menu-btn:hover{
+    background-color: #1C2833;
+}
+/* 5th section end  */
+
+
+
+/* 6th section start here  */
+#sixth-section{
+    background-color: #0b2058;
+    padding: 100px 0;
+    width: 100%;
+    height: 100vh;
+    
+}
+.match-parent{
+    width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+  
+}
+
+.single-first-match{
+    font-size: 20px;
+    color: #fff;
+}
+.single-match{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: left;
+    padding: 15px 20px;
+    border: 5px solid rgba(117, 137, 235, 0.566);
+    
+}
+.single-match h4{
+    font-size: 15px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+.single-match p{
+    margin-bottom: 15px;
+}
+.single-match legend{
+    margin-left: 20px;
+    font-size: 40px;
+    padding: 20px;
+}
+.single-match:nth-child(2){
+    border: 5px solid #fff;
+}
+
+/* 6th section end  */
+
+
+/* 7th section start here  */
+.take-care-parent{
+    display: flex;
+    gap: 50px;
+    margin: 100px 200px ;
+    justify-content: center;
+    width: 60%;
+}
+.take-care h2{
+  
+   margin-bottom: 20px;
+   font-size: 40px;
+ 
+}
+.take-care p{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.take-care ul li{
+    list-style-position: inside;
+}
+.take-care-img img{
+    width: 300px;
+    height: 300px;
+}
+
+/* 7th section end  */
+/* footer part start here  */
+
+#main-footer{
+    background-color: #154360;
+    padding: 100px;
+}
+.footer-parent{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+.single-part{
+    color: #fff;
+    width: 300px;
+}
+.single-part h5{
+    font-size: 20px;
+    margin: 20px 0;
+    letter-spacing: .2em;
+}
+.single-part p{
+    font-size: 20px;
+    letter-spacing: .2em;
+}
+.single-part span{
+    color: yellow;
+}
+.official-link{
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0em;
+    display: inline-block;
+    margin-bottom: 5px;
+}   
+.footer-link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    margin: 2px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
